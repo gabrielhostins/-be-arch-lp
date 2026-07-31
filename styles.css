@@ -1,5 +1,5 @@
 /* ===================================================================
-   BE ARCH — Landing Page
+   BE ARCH , Landing Page
    Paleta:  taupe #c1b0a3 · branco #fff · oliva #46472c · marrom #663719
    Fontes:  Marcellus (títulos, substituto de Valestra) · Cairo (texto)
    =================================================================== */
@@ -254,7 +254,7 @@ h3{font-size:1.35rem}
 }
 
 /* ===================================================================
-   Subpáginas (portfólio e projeto) — header sólido
+   Subpáginas (portfólio e projeto) , header sólido
    =================================================================== */
 .subpage .site-header{background:rgba(245,241,236,.95);backdrop-filter:blur(10px);box-shadow:0 6px 30px rgba(44,38,32,.08);padding:10px 0}
 .subpage .brand{height:38px}

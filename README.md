@@ -1,6 +1,6 @@
-# BE ARCH — Landing Page
+# BE ARCH , Landing Page
 
-Site institucional (landing page) da **BE ARCH — Arquitetura & Interiores**.
+Site institucional (landing page) da **BE ARCH , Arquitetura & Interiores**.
 Site estático (HTML + CSS + JS), sem dependências, pronto para hospedagem na HostGator.
 
 Domínio: **grupobearch.com.br**
@@ -27,7 +27,7 @@ be-arch-lp/
 
 ## Como adicionar / editar um projeto do portfólio
 
-Tudo fica em **`assets/js/projects.js`** — é o único arquivo que você edita.
+Tudo fica em **`assets/js/projects.js`** , é o único arquivo que você edita.
 
 1. Copie um bloco de projeto existente e cole no final da lista.
 2. Ajuste `slug`, `title`, `category`, `location`, `year`, `area` e `description`.
@@ -43,19 +43,19 @@ Não precisa criar página nova: `/portfolio/` e a página de cada projeto se mo
 - **Tipografia:** títulos em *Marcellus* (substituto de *Valestra*) e texto em *Cairo*.
   > A fonte oficial **Valestra** é paga e não está no Google Fonts. Usei *Marcellus*
   > como substituto próximo. Se você tiver os arquivos da Valestra (.woff2), dá para
-  > embutir a fonte real — é só pedir.
+  > embutir a fonte real , é só pedir.
 
 ## ⚠️ O que ainda precisa ser preenchido (dados reais)
 
 Procure e substitua no `index.html`:
 
-1. **WhatsApp** — troque `5547999999999` pelo número real (formato: 55 + DDD + número).
-2. **E-mail** — `contato@grupobearch.com.br` (confirme se é esse).
-3. **Instagram** — troque `https://instagram.com/` e `@bearch.arq` pelo perfil real.
-4. **Link das avaliações do Google** — troque a URL de busca pelo link do perfil no Google.
-5. **Fotos** — substitua os arquivos em `assets/img/` pelas fotos reais,
+1. **WhatsApp** , troque `5547999999999` pelo número real (formato: 55 + DDD + número).
+2. **E-mail** , `contato@grupobearch.com.br` (confirme se é esse).
+3. **Instagram** , troque `https://instagram.com/` e `@bearch.arq` pelo perfil real.
+4. **Link das avaliações do Google** , troque a URL de busca pelo link do perfil no Google.
+5. **Fotos** , substitua os arquivos em `assets/img/` pelas fotos reais,
    mantendo os mesmos nomes (`hero.jpg`, `sobre.jpg`, `proj-*.jpg`).
-6. **Textos** — "Diferenciais" e "Sobre" estão com texto provisório; ajuste ao gosto.
+6. **Textos** , "Diferenciais" e "Sobre" estão com texto provisório; ajuste ao gosto.
 
 ## Como editar e publicar
 

@@ -1,5 +1,5 @@
 /* ============================================================
-   BE ARCH — DADOS DOS PROJETOS
+   BE ARCH , DADOS DOS PROJETOS
    ------------------------------------------------------------
    Este é o ÚNICO lugar que você precisa editar para adicionar,
    remover ou alterar um projeto do portfólio.

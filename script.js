@@ -1,4 +1,4 @@
-/* BE ARCH — interações da landing page */
+/* BE ARCH , interações da landing page */
 (function () {
   'use strict';
 

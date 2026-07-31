@@ -1,4 +1,4 @@
-/* BE ARCH — renderização do portfólio (home, listagem e página de projeto) */
+/* BE ARCH , renderização do portfólio (home, listagem e página de projeto) */
 (function () {
   'use strict';
   var PROJECTS = window.BE_PROJECTS || [];
@@ -79,9 +79,9 @@
           '<h1>Ops, não encontramos esse projeto.</h1>' +
           '<p><a class="btn" href="/portfolio/">Ver todos os projetos</a></p>' +
         '</div>';
-      document.title = 'Projeto não encontrado — BE ARCH';
+      document.title = 'Projeto não encontrado , BE ARCH';
     } else {
-      document.title = p.title + ' — BE ARCH';
+      document.title = p.title + ' , BE ARCH';
       var meta = [];
       if (p.location) meta.push('<div><span>Local</span><strong>' + esc(p.location) + '</strong></div>');
       if (p.year) meta.push('<div><span>Ano</span><strong>' + esc(p.year) + '</strong></div>');
@@ -89,7 +89,7 @@
 
       var gallery = p.images.map(function (src, i) {
         return '<figure class="shot reveal" data-i="' + i + '">' +
-          '<img src="' + esc(src) + '" alt="' + esc(p.title) + ' — imagem ' + (i + 1) + '" loading="lazy" />' +
+          '<img src="' + esc(src) + '" alt="' + esc(p.title) + ' , imagem ' + (i + 1) + '" loading="lazy" />' +
           '</figure>';
       }).join('');
 
