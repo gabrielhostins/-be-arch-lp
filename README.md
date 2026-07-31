@@ -9,16 +9,33 @@ Domínio: **grupobearch.com.br**
 
 ```
 be-arch-lp/
-├── index.html          → a página
-├── styles.css          → estilos (cores e fontes da marca)
-├── script.js           → menu mobile, animações, etc.
+├── index.html              → home (mostra 3 projetos em destaque)
+├── portfolio/index.html    → página com TODOS os projetos  (URL: /portfolio/)
+├── projeto.html            → página de um projeto           (URL: /projeto.html?p=slug)
+├── styles.css              → estilos (cores e fontes da marca)
+├── script.js               → menu mobile, animações, etc.
+├── serve.js                → servidor só para preview local (não usado na hospedagem)
 ├── assets/
-│   ├── logo-*.png       → logo BE ARCH (branco / marrom / oliva)
-│   ├── mono-*.png       → monograma "BE"
-│   ├── favicon-*.png    → ícones da aba
-│   └── img/             → imagens do site (PLACEHOLDERS — trocar pelas fotos reais)
+│   ├── logo-*.png           → logo BE ARCH (branco / marrom / oliva)
+│   ├── mono-*.png           → monograma "BE"
+│   ├── favicon-*.png        → ícones da aba
+│   ├── js/projects.js       → **DADOS dos projetos (edite aqui)**
+│   ├── js/portfolio.js      → renderiza home/portfólio/projeto
+│   └── img/portfolio/<slug>/ → fotos de cada projeto (PLACEHOLDERS)
 └── README.md
 ```
+
+## Como adicionar / editar um projeto do portfólio
+
+Tudo fica em **`assets/js/projects.js`** — é o único arquivo que você edita.
+
+1. Copie um bloco de projeto existente e cole no final da lista.
+2. Ajuste `slug`, `title`, `category`, `location`, `year`, `area` e `description`.
+3. Crie a pasta `assets/img/portfolio/<slug>/` e coloque as fotos.
+4. Aponte `cover` e a lista `images` para essas fotos.
+5. `featured: true` faz o projeto aparecer na home (mostramos os 3 primeiros).
+
+Não precisa criar página nova: `/portfolio/` e a página de cada projeto se montam sozinhas.
 
 ## Identidade visual (do manual da marca)
 

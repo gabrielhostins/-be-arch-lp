@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfólio — BE ARCH — Arquitetura & Interiores</title>
+<meta name="description" content="Portfólio completo da BE ARCH — projetos de arquitetura e interiores, residenciais e comerciais, em Santa Catarina e Rio Grande do Sul." />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Marcellus&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body class="subpage">
+
+<header class="site-header" id="header">
+  <div class="container header-inner">
+    <a href="/" class="brand" aria-label="BE ARCH — início">
+      <img src="/assets/logo-white.png" alt="BE ARCH" class="brand-logo brand-logo--light" />
+      <img src="/assets/logo-brown.png" alt="BE ARCH" class="brand-logo brand-logo--dark" />
+    </a>
+    <nav class="nav" id="nav">
+      <a href="/#sobre">Sobre</a>
+      <a href="/#servicos">Serviços</a>
+      <a href="/#atuacao">Onde atuamos</a>
+      <a href="/portfolio/">Projetos</a>
+      <a href="/#avaliacoes">Avaliações</a>
+      <a href="/#contato">Contato</a>
+      <a href="https://wa.me/5547999999999?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." class="btn btn--sm nav-cta" target="_blank" rel="noopener">Orçamento</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="section portfolio-head">
+    <div class="container">
+      <p class="eyebrow reveal">Portfólio</p>
+      <h1 class="reveal">Nossos projetos</h1>
+      <p class="section-lead reveal">Uma seleção de trabalhos em arquitetura e interiores — residenciais e
+        comerciais — desenvolvidos com equilíbrio, estrutura e clareza.</p>
+      <div class="filters reveal" id="portfolioFilters"></div>
+    </div>
+  </section>
+
+  <section class="section section--soft" style="padding-top:0">
+    <div class="container">
+      <div class="gallery" id="portfolioGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="/assets/logo-white.png" alt="BE ARCH" />
+      <p>Arquitetura &amp; Interiores · Designed to BE.</p>
+    </div>
+    <nav class="footer-nav">
+      <a href="/#sobre">Sobre</a>
+      <a href="/#servicos">Serviços</a>
+      <a href="/#atuacao">Onde atuamos</a>
+      <a href="/portfolio/">Projetos</a>
+      <a href="/#contato">Contato</a>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© <span id="year"></span> BE ARCH — Arquitetura &amp; Interiores. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/projects.js"></script>
+<script src="/assets/js/portfolio.js"></script>
+<script src="/script.js"></script>
+</body>
+</html>
