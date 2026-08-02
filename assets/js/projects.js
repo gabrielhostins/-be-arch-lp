@@ -30,12 +30,7 @@ window.BE_PROJECTS = [
       "/assets/img/portfolio/life-alive/07.jpg",
       "/assets/img/portfolio/life-alive/08.jpg",
       "/assets/img/portfolio/life-alive/09.jpg",
-      "/assets/img/portfolio/life-alive/10.jpg",
-      "/assets/img/portfolio/life-alive/11.jpg",
-      "/assets/img/portfolio/life-alive/12.jpg",
-      "/assets/img/portfolio/life-alive/13.jpg",
-      "/assets/img/portfolio/life-alive/14.jpg",
-      "/assets/img/portfolio/life-alive/15.jpg"
+      "/assets/img/portfolio/life-alive/10.jpg"
     ]
   },
   {
@@ -118,8 +113,7 @@ window.BE_PROJECTS = [
       "/assets/img/portfolio/djeizon/11.jpg",
       "/assets/img/portfolio/djeizon/12.jpg",
       "/assets/img/portfolio/djeizon/13.jpg",
-      "/assets/img/portfolio/djeizon/14.jpg",
-      "/assets/img/portfolio/djeizon/15.jpg"
+      "/assets/img/portfolio/djeizon/14.jpg"
     ]
   },
   {
@@ -226,8 +220,7 @@ window.BE_PROJECTS = [
       "/assets/img/portfolio/andritex/07.jpg",
       "/assets/img/portfolio/andritex/08.jpg",
       "/assets/img/portfolio/andritex/09.jpg",
-      "/assets/img/portfolio/andritex/10.jpg",
-      "/assets/img/portfolio/andritex/11.jpg"
+      "/assets/img/portfolio/andritex/10.jpg"
     ]
   }
 ];
