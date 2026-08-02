@@ -1,0 +1,12 @@
+---
+# Deploy automático do BE ARCH para a HostGator (cPanel Git Version Control).
+# Ao clicar em "Update from Remote" e depois "Deploy HEAD Commit" no cPanel,
+# estes comandos copiam apenas os arquivos do site para o public_html.
+#
+# >>> TROQUE "USUARIO_CPANEL" pelo seu usuário do cPanel <<<
+#     (aparece no canto da tela do cPanel, em "Informações Gerais").
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/USUARIO_CPANEL/public_html/
+    - /bin/cp -R index.html styles.css script.js projeto.html assets portfolio $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH

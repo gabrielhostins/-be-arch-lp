@@ -1,0 +1,33 @@
+# BE ARCH — configurações do Apache (HostGator)
+
+# Página inicial
+DirectoryIndex index.html
+
+# Compactação (site mais rápido)
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml \
+    application/javascript application/json image/svg+xml
+</IfModule>
+
+# Cache de arquivos estáticos
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg  "access plus 1 month"
+  ExpiresByType image/png   "access plus 1 month"
+  ExpiresByType image/webp  "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType text/css    "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+
+# Página 404 (opcional): descomente se criar um 404.html
+# ErrorDocument 404 /404.html
+
+# --------------------------------------------------------------------
+# Forçar HTTPS — descomente as 3 linhas abaixo DEPOIS que o certificado
+# SSL estiver ativo no domínio (a HostGator ativa o AutoSSL automaticamente).
+# <IfModule mod_rewrite.c>
+#   RewriteEngine On
+#   RewriteCond %{HTTPS} off
+#   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>
