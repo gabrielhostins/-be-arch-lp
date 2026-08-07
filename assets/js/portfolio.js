@@ -118,7 +118,7 @@
         '<section class="section section--dark projeto-cta"><div class="container">' +
             '<h2>Gostou desse projeto?</h2>' +
             '<p>Vamos criar o seu. O primeiro passo é uma conversa.</p>' +
-            '<a class="btn" target="_blank" rel="noopener" href="https://wa.me/5547999999999?text=Ol%C3%A1!%20Vi%20o%20projeto%20' + encodeURIComponent(p.title) + '%20e%20gostaria%20de%20um%20or%C3%A7amento.">Falar no WhatsApp</a>' +
+            '<a class="btn" target="_blank" rel="noopener" href="https://wa.me/5547999520077?text=Ol%C3%A1!%20Vi%20o%20projeto%20' + encodeURIComponent(p.title) + '%20e%20gostaria%20de%20um%20or%C3%A7amento.">Falar no WhatsApp</a>' +
         '</div></section>';
 
       /* Lightbox */
