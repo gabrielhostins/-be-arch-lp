@@ -26,8 +26,7 @@ window.BE_PROJECTS = [
       "/assets/img/portfolio/life-alive/03.jpg",
       "/assets/img/portfolio/life-alive/04.jpg",
       "/assets/img/portfolio/life-alive/05.jpg",
-      "/assets/img/portfolio/life-alive/06.jpg",
-      "/assets/img/portfolio/life-alive/07.jpg"
+      "/assets/img/portfolio/life-alive/06.jpg"
     ]
   },
   {
