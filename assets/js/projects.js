@@ -15,11 +15,11 @@ window.BE_PROJECTS = [
     title: "Life Alive",
     category: "Arquitetônico · Comercial",
     cover: "/assets/img/portfolio/life-alive/cover.jpg",
-    location: "Balneário Camboriú, SC",
+    location: "Gaspar, SC",
     year: "2023",
     area: "",
     featured: true,
-    description: "Projeto arquitetônico comercial que traduz a identidade da marca em espaço físico. Fluxo, iluminação e materialidade trabalham juntos para criar uma experiência marcante para o cliente.",
+    description: "Projeto da fachada até os interiores, traduzindo a identidade da marca, seus princípios e valores em um espaço materializado. Um ambiente acolhedor e receptivo, para uma tarde de home office ou um café com pessoas especiais. A iluminação e o layout foram pensados para o melhor bem-estar do cliente, com cada detalhe realçando elementos que reforçam a marca.",
     images: [
       "/assets/img/portfolio/life-alive/01.jpg",
       "/assets/img/portfolio/life-alive/02.jpg",
